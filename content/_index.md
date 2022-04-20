@@ -8,7 +8,7 @@ title: Platform UI
       It started with us, now we're sharing it with you!
     </h2>
     <p class="text--size-md">
-    Platform UI is built to give designers and developers more control over their UIs. It's a powerful and simple system with just enough utilities to make your project amazing.
+      Platform UI is built to give designers and developers more control over their UIs. It's a powerful and simple system with just enough utilities to make your project amazing.
     </p>
   </div>
 </div>
@@ -20,7 +20,7 @@ title: Platform UI
         <div class="card text--center hover-shadow no-border">
           <h3 class="text--size-lg text--purple">Easy</h3>
 {{< figure src="/images/icons/responsive.svg" class="px-4" >}}
-Quick to install, easy to learn. Using a CDN or npm install, then a template, and you're live!
+Quick to install, easy to learn. Use a CDN or npm install, add a template, and you're live!
         </div>
       </div>
       <div class="block">
@@ -41,7 +41,7 @@ Platform Icons let you not worry about your icon choices. They work seamlessly w
         <div class="card text--center hover-shadow no-border">
           <h3 class="text--size-lg text--purple">Templates</h3>
 {{< figure src="/images/icons/responsive.svg" class="px-4" >}}
-Want that blog up now! We have starter templates to help you launch your ideas.
+Want that blog up now? We have starter templates to help you launch your ideas.
         </div>
       </div>
     </div>
@@ -77,7 +77,7 @@ https://unpkg.com/@ritterim/platform-ui/dist/js/platform-ui.min.js
   <div class="block block-11 tablet-up-8 desktop-up-6">
     <h2 class="text--center text--purple text--bold text--size-xl">Need moar?</h2>
     <p class="text--size-md">
-Here's a quick template to get you started. It uses th CDN install, which we recommend for a quick launch!</p>
+Here's a quick template to get you started. It uses the CDN install, which we recommend for a quick launch!</p>
     <div class="block-container flex--justify-center">
       <div class="block">
 {{< highlight html >}}

@@ -7,7 +7,7 @@ weight: 1
 
 ## CDN
 
-The easiest, and fastest, way to implement Platform UI is by using a CDN. Here are a few examples.
+The quickest and easiest way to implement Platform UI is by using a CDN. Here are a few examples.
 
 ### UNPKG
 
@@ -47,7 +47,7 @@ The easiest, and fastest, way to implement Platform UI is by using a CDN. Here a
 
 <div class="mb-6">
 {{< callout tipHeader="Pro Tip">}}
-<p>Leaving out a version will always fetch the latest. Adding @1.3.7 after platform-ui will get that specific version. </p>
+<p>Leaving out a version will always fetch the latest. Adding <code>@1.3.7</code> after <code>platform-ui</code> will get that specific version.</p>
 {{< /callout >}}
 </div>
 
@@ -78,7 +78,6 @@ This is the basic template to get started for any HTML project.
 </div>
  
 Looking for a little more to get going? Check out our [gallery examples](/launch-pad/)!
-
 
 <div class="mb-4">
 {{< highlight html >}}
@@ -121,11 +120,11 @@ Looking for a little more to get going? Check out our [gallery examples](/launch
  
 ## Third Parties
 
-There are a few third party choices we've incorporated into Platform UI, these are part of the compiled version only. If you choose to build Platform UI from source, you'll need to consider the following.
+There are a few third party choices we've incorporated into Platform UI which are part of the compiled version only. If you choose to build Platform UI from source, you'll need to consider the following.
 
 ### Normalize.css
 
-The nature of browsers and their vendors often require a reset to normalize behavious for standard HTML tags, so we include <a href="https://necolas.github.io/normalize.css/" rel="external" target="_blank">Normalize.css</a> as part of Platform UIs build process.
+The nature of browsers and their vendors often require a reset to normalize behavious for standard HTML tags, so we include <a href="https://necolas.github.io/normalize.css/" rel="external" target="_blank">Normalize.css</a> as part of Platform UI's build process.
 
 **If you're using Platform UI in your own build process, you'll need to include Normalize.css.**
 

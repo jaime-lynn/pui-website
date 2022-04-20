@@ -4,8 +4,7 @@ skellyCSS: true
 toc: false
 ---
 
-To hide and show the figcaption on hover, you can add the class `figure-hover` to a `figure`. Notice the figcaption transitions
-on hover.
+To hide and show the figcaption on hover, you can add the class `figure-hover` to a `<figure>`.
 
 {{< code-demo >}}
 <div class="block-container">

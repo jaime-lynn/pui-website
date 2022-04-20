@@ -36,7 +36,7 @@ some padding.
 {{< /code-markup >}}
 
 {{< callout tipHeader="Card Tip">}} 
-  <p>By default a card will take up 100% of the width of it's parent. You can utilize <a class="text--navy text-underline--hover" href="../../layout/layout">Platform UI layout classes</a>, such as block-container and block, to give the card size.</p>
+  <p>By default a card will take up 100% of the width of it's parent. You can utilize <a class="text--navy text-underline--hover" href="../../layout/layout">Platform UI layout classes</a>, such as block-container and block, to adjust the card's size.</p>
 {{< /callout >}}
 </section>
 

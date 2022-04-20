@@ -7,7 +7,7 @@ toc: false
 {{% requires-js %}}
 </div>
 
-Drawers are Platform UI elements that hide content off-screen called upon, at which point are attached to one side of the viewport.
+Drawers are Platform UI elements that hide content off-screen until called upon, at which point they are attached to one side of the viewport.
 
 {{< code-demo >}}
 <div class="block-container mt-3">
@@ -93,37 +93,7 @@ Drawers are Platform UI elements that hide content off-screen called upon, at wh
     A small sized drawer
   </td>
 </tr>
-<tr>
-  <td data-label="Modifier Class"><code>.drawer-bottom</code></td>
-  <td data-label="Description">Drawer opens from bottom of the viewport</td>
-</tr>
 {{< /modifiers >}}
-
-<section class="mb-4">
-  <h3>Modifiers</h3>
-  <table borders="1" class="table modifiers table--no-hover">
-    <thead>
-      <tr>
-        <th>Modifier Class</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td data-label="Modifier Class"><code>.drawer-top</code></td>
-        <td data-label="Description">Drawer opens from the top of the viewport</td>
-      </tr>
-      <tr>
-        <td data-label="Modifier Class"><code>.drawer-right</code></td>
-        <td data-label="Description">Drawer opens from right side of the viewport</td>
-      </tr>
-      <tr>
-        <td data-label="Modifier Class"><code>.drawer-left</code></td>
-        <td data-label="Description">Drawer opens from left side of the viewport</td>
-      </tr>
-    </tbody>
-  </table>
-</section>
 
 {{< callout tipHeader="Drawer Tip" >}}
   <p>If the <code>header-fixed</code> class is added to the main wrapper, the side drawers will open below the header.</p>

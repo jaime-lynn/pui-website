@@ -8,7 +8,7 @@ toc: false
 </div>
 
 Leverage spacing utility classes for padding and margin for the content within the accordion.
-To show the content of the accordion toggle the class `active` on `accordion`. These accordions are also keyboard accessible.
+To show the content of the accordion, toggle the class `active` on `accordion`. These accordions are also keyboard accessible.
 
 Platform UI accordions were designed to be stacked.
 

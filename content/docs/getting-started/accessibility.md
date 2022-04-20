@@ -3,15 +3,15 @@ title: Accessibility
 weight: 4
 ---
 
-Here at [Ritter Insurance Marketing](https://ritterim.com), we build accessible, scalable, websites and apps. We follow <a href="https://www.w3.org/TR/WCAG21/" rel="external" target="_blank">WCAG 2.1</a> guidelines for all of our projects, with a close eye on the future of accessibility. 
+Here at [Ritter Insurance Marketing](https://ritterim.com), we build websites and apps that are accessible and scalable. We follow <a href="https://www.w3.org/TR/WCAG21/" rel="external" target="_blank">WCAG 2.1</a> guidelines for all of our projects, with a close eye on the future of accessibility. 
 
-Leveraging WAI-ARIA roles, labeling, and descriptions, along with keyboard functionality and contrast where possible. Many of these decisions fall on the person or team implementing Platform UI into their project. 
+We leverage WAI-ARIA roles, labeling, and descriptions, along with keyboard functionality and contrast where possible. Many of these decisions fall on the person or team implementing Platform UI into their project. 
 
-We made a point to include the now familiar <a href="https://webaim.org/techniques/css/invisiblecontent/" rel="external">screen reader only</a> class, `.sr-only` for content that offers not additional information, and can be confusing, to a screen reader. Elements or actions that would benefit from additional text  meant to offer context to a screen reader.
+We made a point to include the now familiar <a href="https://webaim.org/techniques/css/invisiblecontent/" rel="external">screen reader only</a> class, `sr-only`, for content that can be confusing to a screen reader. Elements or actions that would benefit from additional text can use this class to offer context to a screen reader.
 
-There are also instances where hiding content from a screen reader can eliminate confusion where a choice is for design or aesthetic purposes. This is where ARIA labeling comes to the rescue. 
+There are also instances where content that is present for design or aesthetic purposes should be hidden from a screen reader to eliminate confusion. This is where ARIA labeling comes to the rescue.
 
-In the snippet below we have a button with an icon only - concise and, depending on the icon, this is may be visually understood by a sighted user.  
+In the snippet below we have a button with an icon only - concise and, depending on the icon, is generally understood visually by a sighted user.  
 
 {{< highlight html >}}
 <button class=”button”>
@@ -19,7 +19,7 @@ In the snippet below we have a button with an icon only - concise and, depending
 </button>
 {{< /highlight >}}
 
-You can use <a href="https://www.w3.org/WAI/standards-guidelines/aria/" rel="external" target="_blank">WAI-ARIA</a> roles and attributes along with the `.sr-only` class to improve the experience for visually or cognitavely impared users.
+You can use <a href="https://www.w3.org/WAI/standards-guidelines/aria/" rel="external" target="_blank">WAI-ARIA</a> roles and attributes along with the `sr-only` class to improve the experience for users who require assistive technology.
 
 {{< highlight html >}}
 <button class=”button”>
